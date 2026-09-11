@@ -12,3 +12,4 @@ C:\Users\Student_15\Documents\Lab02-Межидов\obj\Debug\net10.0\refint\Lab0
 C:\Users\Student_15\Documents\Lab02-Межидов\obj\Debug\net10.0\Lab02-Межидов.pdb
 C:\Users\Student_15\Documents\Lab02-Межидов\obj\Debug\net10.0\Lab02-Межидов.genruntimeconfig.cache
 C:\Users\Student_15\Documents\Lab02-Межидов\obj\Debug\net10.0\ref\Lab02-Межидов.dll
+C:\Users\Student_15\Documents\Lab02-Межидов\obj\Debug\net10.0\Lab02-Межидов.sourcelink.json
