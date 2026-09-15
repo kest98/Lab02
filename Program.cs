@@ -101,33 +101,46 @@
 
 
 
-Console.Write("Ваше имя и фамилию: ");
-string fullName = Console.ReadLine();
+// Console.Write("Ваше имя и фамилию: ");
+// string fullName = Console.ReadLine();
 
-Console.Write("Название группы: ");
-string groupName = Console.ReadLine();
+// Console.Write("Название группы: ");
+// string groupName = Console.ReadLine();
 
-Console.Write("Введите ваш год рождения: ");
-string birthYearInput = Console.ReadLine();
-int birthYearConvert = Convert.ToInt32(birthYearInput);
+// Console.Write("Введите ваш год рождения: ");
+// string birthYearInput = Console.ReadLine();
+// int birthYearConvert = Convert.ToInt32(birthYearInput);
 
-Console.Write("Средний балл за прошлый семестр: ");
-double srball = double.Parse(Console.ReadLine());
+// Console.Write("Средний балл за прошлый семестр: ");
+// double srball = double.Parse(Console.ReadLine());
 
-Console.Write("Любимая буква алфавита: ");
-char alphabet1 = Console.ReadLine()[0];
+// Console.Write("Любимая буква алфавита: ");
+// char alphabet1 = Console.ReadLine()[0];
 
-int age2030 = 2030 - birthYearConvert;
+// int age2030 = 2030 - birthYearConvert;
 
-bool ball = srball >= 4.0;
+// bool ball = srball >= 4.0;
+
+// Console.WriteLine();
+// Console.WriteLine("     Анкета");
+// Console.WriteLine($"{fullName}, {groupName}");
+// Console.WriteLine($"Год рождения: '{birthYearInput}' (в 2030 будет {age2030})");
+// Console.WriteLine($"Средний балл: {srball}");
+// Console.WriteLine($"Балл >= 4.0: {ball}");
+// Console.WriteLine($"Любимая буква: {alphabet1}");
+
+
+
+Console.Write("Введите ваш рост в метрах: ");
+double height = double.Parse(Console.ReadLine());
+
+Console.Write("Введите ваш вес в кг: ");
+double weight = double.Parse(Console.ReadLine());
+
+double imt = weight / (height * height);
 
 Console.WriteLine();
-Console.WriteLine("     Анкета");
-Console.WriteLine($"{fullName}, {groupName}");
-Console.WriteLine($"Год рождения: '{birthYearInput}' (в 2030 будет {age2030})");
-Console.WriteLine($"Средний балл: {srball}");
-Console.WriteLine($"Балл >= 4.0: {ball}");
-Console.WriteLine($"Любимая буква: {alphabet1}");
+Console.WriteLine($"ИМТ: {imt:F2}");
 
 
 
