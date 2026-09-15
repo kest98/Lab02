@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student_15\\Documents\\Lab02-Межидов\\Lab02-Межидов.csproj": {}
+    "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student_15\\Documents\\Lab02-Межидов\\Lab02-Межидов.csproj": {
+    "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student_15\\Documents\\Lab02-Межидов\\Lab02-Межидов.csproj",
+        "projectUniqueName": "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj",
         "projectName": "Lab02-Межидов",
-        "projectPath": "C:\\Users\\Student_15\\Documents\\Lab02-Межидов\\Lab02-Межидов.csproj",
-        "packagesPath": "C:\\Users\\Student_15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student_15\\Documents\\Lab02-Межидов\\obj\\",
+        "projectPath": "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj",
+        "packagesPath": "C:\\Users\\Lider\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lider\\Documents\\lab02\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Student_15\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lider\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -112,16 +112,22 @@ string birthYearInput = Console.ReadLine();
 int birthYearConvert = Convert.ToInt32(birthYearInput);
 
 Console.Write("Средний балл за прошлый семестр: ");
-double srball = Console.ReadLine();
+double srball = double.Parse(Console.ReadLine());
 
 Console.Write("Любимая буква алфавита: ");
 char alphabet1 = Console.ReadLine()[0];
 
-Console.WriteLine("Анкета");
+int age2030 = 2030 - birthYearConvert;
+
+bool ball = srball >= 4.0;
+
+Console.WriteLine();
+Console.WriteLine("     Анкета");
 Console.WriteLine($"{fullName}, {groupName}");
-Console.WriteLine($"Год рождения:  '{birthYearInput}' (в 2030 будет {birthYearConvert})");
-Console.WriteLine($"Табуляция:\tпосле таба");
-Console.WriteLine($"Перенос:\tпосле переноса");
+Console.WriteLine($"Год рождения: '{birthYearInput}' (в 2030 будет {age2030})");
+Console.WriteLine($"Средний балл: {srball}");
+Console.WriteLine($"Балл >= 4.0: {ball}");
+Console.WriteLine($"Любимая буква: {alphabet1}");
 
 
 
