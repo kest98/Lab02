@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj": {}
+    "C:\\Users\\Lider\\Documents\\Lab02\\Lab02-Межидов.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj": {
+    "C:\\Users\\Lider\\Documents\\Lab02\\Lab02-Межидов.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj",
+        "projectUniqueName": "C:\\Users\\Lider\\Documents\\Lab02\\Lab02-Межидов.csproj",
         "projectName": "Lab02-Межидов",
-        "projectPath": "C:\\Users\\Lider\\Documents\\lab02\\Lab02-Межидов.csproj",
+        "projectPath": "C:\\Users\\Lider\\Documents\\Lab02\\Lab02-Межидов.csproj",
         "packagesPath": "C:\\Users\\Lider\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lider\\Documents\\lab02\\obj\\",
+        "outputPath": "C:\\Users\\Lider\\Documents\\Lab02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lider\\AppData\\Roaming\\NuGet\\NuGet.Config"

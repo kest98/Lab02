@@ -131,17 +131,31 @@
 
 
 
-Console.Write("Введите ваш рост в метрах: ");
-double height = double.Parse(Console.ReadLine());
+// Console.Write("Введите ваш рост в метрах: ");
+// double height = double.Parse(Console.ReadLine());
 
-Console.Write("Введите ваш вес в кг: ");
-double weight = double.Parse(Console.ReadLine());
+// Console.Write("Введите ваш вес в кг: ");
+// double weight = double.Parse(Console.ReadLine());
 
-double imt = weight / (height * height);
+// double imt = weight / (height * height);
+
+// Console.WriteLine();
+// Console.WriteLine($"ИМТ: {imt:F2}");
+
+
+
+
+Console.Write("Введите имя:");
+string name = Console.ReadLine();
+
+
+Console.Write("Введите фамилию:");
+string lastName = Console.ReadLine();
+
+char first = name[0];
 
 Console.WriteLine();
-Console.WriteLine($"ИМТ: {imt:F2}");
-
+Console.WriteLine($"{lastName} {first}.");
 
 
 
