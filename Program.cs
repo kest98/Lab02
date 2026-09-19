@@ -91,7 +91,7 @@
 // Console.WriteLine();
 // Console.WriteLine("Ввод чисел: TryParse");
 
-// Console.Write("Введите количество прочитанных кнг за семестр: ");
+// Console.Write("Введите количество прочитанных книг за семестр: ");
 // string booksInput = Console.ReadLine();
 
 // bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
